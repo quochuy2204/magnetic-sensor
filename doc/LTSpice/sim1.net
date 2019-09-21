@@ -1,0 +1,17 @@
+* C:\Users\iola\Documents\VAMK\ESD\sim1.asc
+Vsource Vcc 0 3.3
+XU2 N002 N001 Vcc 0 Diff LMC6482A/NS
+Vbase Base 0 1.6
+R1 N001 Base 1k
+R2 N002 Sweep 1k
+R3 Diff N001 10k
+R4 N002 0 10k
+Vsweep Sweep 0 1.6
+XU1 Diff Ref Vcc 0 Out LMC6482A/NS
+R5 Vcc Ref 10k
+R6 Ref 0 1k
+R7 Out 0 1k
+.dc Vsweep 1.6 1.7 100u
+.include nat_semi.lib
+.backanno
+.end

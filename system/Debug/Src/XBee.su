@@ -1,0 +1,6 @@
+XBee.c:7:6:put_int16	0	static
+XBee.c:13:6:init_XBee	0	static
+XBee.c:17:6:send_XBee	120	static
+XBee.c:32:6:concat_XBee	0	static
+XBee.c:38:6:tx_req_XBee	112	static
+XBee.c:50:6:tx_at	0	static
